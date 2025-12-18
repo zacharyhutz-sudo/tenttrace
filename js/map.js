@@ -3,7 +3,7 @@ const map = L.map('map').setView([34.498, -83.078], 15);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
 // 2. Paste your Google Sheet CSV Link here
-const sheetUrl = 'YOUR_GOOGLE_SHEET_CSV_URL_HERE';
+const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS1_GWcMHtt84X11EiASNoSXHRXPfq3CYUSJrZAKHixKTNiBaIY4LsTlY8HxzfrLCATjfae8q6fRXk3/pub?gid=0&single=true&output=csv';
 
 // 3. Use PapaParse to load the data
 Papa.parse(sheetUrl, {
