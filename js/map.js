@@ -68,7 +68,3 @@ Papa.parse(sheetUrl, {
         }
     }
 });
-            }
-        });
-    }
-});
